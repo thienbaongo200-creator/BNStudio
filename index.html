@@ -1,0 +1,1367 @@
+<!DOCTYPE html>
+<html lang="vi">
+
+<head>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+  
+  <title>BNStudio - Thiết kế UI/UX chuyên nghiệp</title>
+  <meta name="description" content="BNStudio chuyên thiết kế giao diện UI/UX hiện đại, tối ưu trải nghiệm người dùng cho website và ứng dụng. Đem đến giải pháp sáng tạo, hiệu quả và chuyên nghiệp.">
+  <meta name="keywords" content="thiết kế UI/UX chuyên nghiệp, giao diện người dùng hiện đại, trải nghiệm người dùng tối ưu, thiết kế website chuẩn SEO, thiết kế ứng dụng di động, dịch vụ thiết kế giao diện web, thiết kế landing page sáng tạo, tư vấn thiết kế UX cho doanh nghiệp, thiết kế web responsive, BNStudio thiết kế web uy tín">
+  <meta name="theme-color" content="#00ffff" />
+
+  <!-- 🌐 Open Graph (Chia sẻ mạng xã hội) -->
+  <meta property="og:type" content="website" />
+  <meta property="og:title" content="BNStudio - Thiết kế UI/UX chuyên nghiệp" />
+  <meta property="og:description" content="Giải pháp giao diện hiện đại, sáng tạo và tối ưu cho website & ứng dụng." />
+  <meta property="og:image" content="https://bnstudio.com/assets/img/og-banner.jpg" />
+  <meta property="og:url" content="https://bnstudio.com" />
+  <meta property="og:site_name" content="BNStudio" />
+
+  <!-- Favicons -->
+  <link href="assets/img/favicon.png" rel="icon">
+  <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
+
+  <!-- Fonts -->
+  <link href="https://fonts.googleapis.com" rel="preconnect">
+  <link href="https://fonts.gstatic.com" rel="preconnect" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Quicksand:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+  <!-- Vendor CSS Files -->
+  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+  <link href="assets/vendor/aos/aos.css" rel="stylesheet">
+  <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+  <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+
+  <!-- Main CSS File -->
+  <link href="assets/css/main.css" rel="stylesheet">
+
+  <!-- =======================================================
+  * Template Name: Clarity
+  * Template URL: https://bootstrapmade.com/clarity-bootstrap-agency-template/
+  * Updated: Sep 13 2025 with Bootstrap v5.3.8
+  * Author: BootstrapMade.com
+  * License: https://bootstrapmade.com/license/
+  ======================================================== -->
+
+  <script>
+  document.addEventListener("DOMContentLoaded", function () {
+    const username = localStorage.getItem("username");
+    if (!username) {
+      alert("Bạn cần đăng nhập trước khi truy cập trang chính.");
+      window.location.href = "Login.html";
+    }
+  });
+</script>
+
+</head>
+
+<body class="index-page">
+
+  <header id="header" class="header d-flex align-items-center sticky-top">
+    <div class="header-container container-fluid container-xl position-relative d-flex align-items-center justify-content-between">
+
+      <!-- Logo bên trái -->
+      <a href="index.html" class="logo d-flex align-items-center me-3">
+        <!-- <img src="assets/img/logo.webp" alt=""> -->
+        <h1 class="sitename">BNStudio</h1>
+      </a>
+
+      <!-- Menu chính giữa -->
+      <nav id="navmenu" class="navmenu flex-grow-1 d-flex justify-content-center">
+        <ul class="d-flex gap-4 align-items-center">
+          <li><a href="#hero" class="active">Trang Chủ</a></li>
+          <li><a href="#about">Giới Thiệu</a></li>
+          <li><a href="#services">Dịch Vụ</a></li>
+          <li><a href="#portfolio">Danh Mục</a></li>
+          <li><a href="#team">Đội Ngũ</a></li>
+          <li><a href="#contact">Liên Hệ</a></li>
+        </ul>
+        <i class="mobile-nav-toggle d-xl-none bi bi-list"></i>
+      </nav>
+
+      <!-- Nút bên phải -->
+      <a id="user-button" class="btn-getstarted btn btn-primary ms-3" href="#about">Bắt đầu</a>
+      <div class="user-actions">
+        <span id="user-display"></span>
+        <button id="logout-btn">Đăng xuất</button>
+      </div>
+
+
+    </div>
+  </header>
+
+
+  <main class="main">
+
+      <!-- Hero Section -->
+      <section id="hero" class="hero section">
+        <div class="container">
+          <div class="row align-items-center">
+            <div class="col-lg-6" data-aos="fade-right" data-aos-delay="100">
+              <div class="hero-content">
+                <h1>Tối Ưu Trải Nghiệm – Tăng Trưởng Bền Vững</h1>
+                <p>
+                  Trong thế giới số ngày nay, giao diện người dùng không chỉ là “bề ngoài” của sản phẩm – đó là trải nghiệm mà khách hàng cảm nhận. Tại BNStudio, chúng tôi cung cấp dịch vụ thiết kế giao diện người dùng chuyên nghiệp, giúp doanh nghiệp tạo ra sản phẩm số đẹp mắt, dễ dùng và hiệu quả.
+                </p>
+                <div class="hero-stats">
+                  <div class="stat-item">
+                    <span class="stat-number purecounter" data-purecounter-start="0" data-purecounter-end="150" data-purecounter-duration="1"></span>
+                    <span class="stat-label">Dự án hoàn thành</span>
+                  </div>
+                  <div class="stat-item">
+                    <span class="stat-number purecounter" data-purecounter-start="0" data-purecounter-end="95" data-purecounter-duration="1"></span>
+                    <span class="stat-label">Khách hàng hài lòng</span>
+                  </div>
+                  <div class="stat-item">
+                    <span class="stat-number purecounter" data-purecounter-start="0" data-purecounter-end="24" data-purecounter-duration="1"></span>
+                    <span class="stat-label">Thành viên đội ngũ</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-6" data-aos="fade-left" data-aos-delay="200">
+              <div class="hero-visual">
+                <img src="assets/img/misc/misc-16.webp" alt="Thiết kế giao diện số" class="img-fluid" loading="lazy">
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="hero-bg-elements">
+          <div class="bg-shape shape-1"></div>
+          <div class="bg-shape shape-2"></div>
+          <div class="bg-particles"></div>
+        </div>
+      </section>
+
+      <!-- About Section -->
+      <section id="about" class="about section">
+        <div class="container" data-aos="fade-up" data-aos-delay="100">
+          <div class="row gy-5 align-items-center">
+            <div class="col-lg-5" data-aos="fade-right" data-aos-delay="200">
+              <div class="content">
+                <h6 class="subtitle">Discover Our Story</h6>
+                <h2>Sứ Mệnh Của Chúng Tôi</h2>
+                <p>
+                  Chúng tôi tin rằng trải nghiệm số không chỉ là công nghệ – mà là cảm xúc, sự kết nối và hiệu quả. BNStudio ra đời để giúp doanh nghiệp bứt phá trong thế giới kỹ thuật số, thông qua những giải pháp thiết kế tinh tế, thông minh và đầy cảm hứng.
+                </p>
+                <ul class="features-list">
+                  <li><i class="bi bi-check-circle-fill"></i> Đổi mới trải nghiệm số: Giao diện thân thiện, dễ dùng, gắn bó người dùng.</li>
+                  <li><i class="bi bi-check-circle-fill"></i> Tối ưu hiệu quả: Thiết kế theo hành vi thực tế, đạt mục tiêu nhanh hơn.</li>
+                  <li><i class="bi bi-check-circle-fill"></i> Loại bỏ sự phức tạp: Ưu tiên đơn giản, rõ ràng và hiệu quả.</li>
+                </ul>
+                <a href="#services" class="btn btn-primary">Khám Phá Thêm</a>
+              </div>
+            </div>
+            <div class="col-lg-7" data-aos="fade-left" data-aos-delay="300">
+              <div class="image-composition">
+                <img src="assets/img/about/about-9.webp" alt="Văn phòng hiện đại" class="img-fluid rounded shadow mb-3" loading="lazy">
+                <img src="assets/img/about/about-square-8.webp" alt="Thảo luận nhóm" class="img-fluid rounded shadow" loading="lazy">
+                <div class="stats-card">
+                  <div class="stats-item">
+                    <h3>20+</h3>
+                    <p>Năm kinh nghiệm</p>
+                  </div>
+                  <div class="stats-item">
+                    <h3>500+</h3>
+                    <p>Khách hàng hài lòng</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+    <!-- Services Section -->
+    <section id="services" class="services section">
+
+      <!-- Section Title -->
+      <div class="container section-title" data-aos="fade-up">
+        <h2>Dịch Vụ</h2>
+        <p>Chúng tôi giúp bạn xây dựng sản phẩm số có chiều sâu và sức hút.</p>
+      </div>
+
+      <div class="container" data-aos="fade-up" data-aos-delay="100">
+        <div class="row gy-4">
+          
+          <!-- Brand Identity Design -->
+          <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="200">
+            <div class="service-card">
+              <div class="service-icon"><i class="bi bi-palette"></i></div>
+              <h4><a href="service-brand.html">Thiết kế Thương Hiệu</a></h4>
+              <p>Thiết kế logo, màu sắc và phong cách hình ảnh giúp doanh nghiệp nổi bật và ghi dấu ấn.</p>
+              <div class="service-badge">Phổ biến nhất</div>
+              <a href="service-brand.html" class="service-link">
+                <span>Xem chi tiết</span>
+                <i class="bi bi-arrow-right"></i>
+              </a>
+            </div>
+          </div>
+
+          <!-- UI/UX Design -->
+          <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="300">
+            <div class="service-card">
+              <div class="service-icon"><i class="bi bi-layout-text-window-reverse"></i></div>
+              <h4><a href="service-uiux.html">Thiết kế UI/UX</a></h4>
+              <p>Tối ưu hành vi người dùng với giao diện thân thiện, dễ dùng và hiệu quả trên mọi thiết bị.</p>
+              <a href="service-uiux.html" class="service-link">
+                <span>Xem chi tiết</span>
+                <i class="bi bi-arrow-right"></i>
+              </a>
+            </div>
+          </div>
+
+          <!-- Web Development -->
+          <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="400">
+            <div class="service-card">
+              <div class="service-icon"><i class="bi bi-code-slash"></i></div>
+              <h4><a href="service-website.html">Phát triển Website</a></h4>
+              <p>Phát triển từ landing page đến hệ thống quản lý, theo nhu cầu thực tế và mục tiêu kinh doanh.</p>
+              <a href="service-website.html" class="service-link">
+                <span>Xem chi tiết</span>
+                <i class="bi bi-arrow-right"></i>
+              </a>
+            </div>
+          </div>
+
+          <!-- Mobile App Design -->
+          <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="500">
+            <div class="service-card">
+              <div class="service-icon"><i class="bi bi-phone"></i></div>
+              <h4><a href="service-app.html">Thiết kế App Di Động</a></h4>
+              <p>Thiết kế app Android/iOS với trải nghiệm trực quan, thao tác dễ dàng và tính năng linh hoạt.</p>
+              <a href="service-app.html" class="service-link">
+                <span>Xem chi tiết</span>
+                <i class="bi bi-arrow-right"></i>
+              </a>
+            </div>
+          </div>
+
+          <!-- Digital Marketing -->
+          <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="600">
+            <div class="service-card">
+              <div class="service-icon"><i class="bi bi-megaphone"></i></div>
+              <h4><a href="service-marketing.html">Tiếp thị Số</a></h4>
+              <p>Tối ưu quảng cáo Google, Facebook, SEO và nội dung để tiếp cận đúng khách hàng, đúng thời điểm.</p>
+              <a href="service-marketing.html" class="service-link">
+                <span>Xem chi tiết</span>
+                <i class="bi bi-arrow-right"></i>
+              </a>
+            </div>
+          </div>
+
+          <!-- SEO Optimization -->
+          <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="700">
+            <div class="service-card">
+              <div class="service-icon"><i class="bi bi-search"></i></div>
+              <h4><a href="service-seo.html">Dịch vụ SEO Website</a></h4>
+              <p>Giúp website của bạn xuất hiện đúng nơi, đúng lúc trên Google – tiếp cận khách hàng tự nhiên và bền vững.</p>
+              <a href="service-seo.html" class="service-link">
+                <span>Xem chi tiết</span>
+                <i class="bi bi-arrow-right"></i>
+              </a>
+            </div>
+          </div>
+
+          <!-- CTA -->
+          <div class="row mt-5">
+            <div class="col-12 text-center" data-aos="fade-up" data-aos-delay="800">
+              <div class="services-cta">
+                <h3>Sẵn sàng nâng tầm thương hiệu số của bạn?</h3>
+                <p>Hãy cùng BNStudio tạo nên trải nghiệm tuyệt vời cho khách hàng của bạn.</p>
+                <a href="#contact" class="btn btn-primary">Liên hệ ngay</a>
+              </div>
+            </div>
+          </div>
+
+
+    <!-- Portfolio Section -->
+    <section id="portfolio" class="portfolio section">
+
+      <!-- Section Title -->
+      <div class="container section-title" data-aos="fade-up">
+        <h2>Dự án tiêu biểu</h2>
+        <p>Những sản phẩm thiết kế nổi bật mà BNStudio đã thực hiện cho khách hàng trong nhiều lĩnh vực khác nhau.</p>
+      </div><!-- End Section Title -->
+
+      <div class="container" data-aos="fade-up" data-aos-delay="100">
+
+        <div class="isotope-layout" data-default-filter="*" data-layout="masonry" data-sort="original-order">
+          <ul class="portfolio-filters isotope-filters" data-aos="fade-up" data-aos-delay="200">
+            <li data-filter="*" class="filter-active">Tất cả</li>
+            <li data-filter=".filter-web">Thiết kế Web</li>
+            <li data-filter=".filter-mobile">Ứng dụng di động</li>
+            <li data-filter=".filter-branding">Thương hiệu</li>
+            <li data-filter=".filter-ui">UI/UX</li>
+          </ul><!-- End Portfolio Filters -->
+
+          <div class="row gy-4 isotope-container" data-aos="fade-up" data-aos-delay="300">
+            <div class="col-xl-4 col-lg-6 portfolio-item isotope-item filter-web">
+              <div class="portfolio-wrapper">
+                <div class="portfolio-image">
+                  <img src="assets/img/portfolio/portfolio-7.webp" alt="Creative Web Project" class="img-fluid" loading="lazy">
+                  <div class="portfolio-hover">
+                    <div class="portfolio-actions">
+                      <a href="assets/img/portfolio/portfolio-7.webp" class="glightbox action-btn preview-btn" title="Preview Project">
+                        <i class="bi bi-eye"></i>
+                      </a>
+                      <a href="#" class="action-btn details-btn" title="View Details">
+                        <i class="bi bi-arrow-up-right"></i>
+                      </a>
+                    </div>
+                  </div>
+                </div>
+                <div class="portfolio-content">
+                  <div class="portfolio-meta">
+                    <span class="project-type">Thiết kế Web</span>
+                    <div class="project-rating">
+                      <i class="bi bi-star-fill"></i>
+                      <span>4.8</span>
+                    </div>
+                  </div>
+                  <h3>Nền tảng số đổi mới</h3>
+                  <p>Giải pháp web hiện đại giúp doanh nghiệp chuyển đổi số nhanh chóng và hiệu quả.</p>
+                  <div class="portfolio-tech">
+                    <span class="tech-badge">React</span>
+                    <span class="tech-badge">Node.js</span>
+                    <span class="tech-badge">AWS</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-xl-4 col-lg-6 portfolio-item isotope-item filter-mobile">
+              <div class="portfolio-wrapper">
+                <div class="portfolio-image">
+                  <img src="assets/img/portfolio/portfolio-8.webp" alt="Mobile App Project" class="img-fluid" loading="lazy">
+                  <div class="portfolio-hover">
+                    <div class="portfolio-actions">
+                      <a href="assets/img/portfolio/portfolio-8.webp" class="glightbox action-btn preview-btn" title="Preview Project">
+                        <i class="bi bi-eye"></i>
+                      </a>
+                      <a href="#" class="action-btn details-btn" title="View Details">
+                        <i class="bi bi-arrow-up-right"></i>
+                      </a>
+                    </div>
+                  </div>
+                </div>
+                <div class="portfolio-content">
+                  <div class="portfolio-meta">
+                    <span class="project-type">Ứng dụng di động</span>
+                    <div class="project-rating">
+                      <i class="bi bi-star-fill"></i>
+                      <span>4.9</span>
+                    </div>
+                  </div>
+                  <h3>Ứng dụng năng suất thông minh</h3>
+                  <p>Giúp người dùng quản lý công việc hiệu quả với giao diện đơn giản và AI tích hợp.</p>
+                  <div class="portfolio-tech">
+                    <span class="tech-badge">Flutter</span>
+                    <span class="tech-badge">Firebase</span>
+                    <span class="tech-badge">AI</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-xl-4 col-lg-6 portfolio-item isotope-item filter-branding">
+              <div class="portfolio-wrapper">
+                <div class="portfolio-image">
+                  <img src="assets/img/portfolio/portfolio-9.webp" alt="Branding Project" class="img-fluid" loading="lazy">
+                  <div class="portfolio-hover">
+                    <div class="portfolio-actions">
+                      <a href="assets/img/portfolio/portfolio-9.webp" class="glightbox action-btn preview-btn" title="Preview Project">
+                        <i class="bi bi-eye"></i>
+                      </a>
+                      <a href="#" class="action-btn details-btn" title="View Details">
+                        <i class="bi bi-arrow-up-right"></i>
+                      </a>
+                    </div>
+                  </div>
+                </div>
+                <div class="portfolio-content">
+                  <div class="portfolio-meta">
+                    <span class="project-type">Thương hiệu</span>
+                    <div class="project-rating">
+                      <i class="bi bi-star-fill"></i>
+                      <span>5.0</span>
+                    </div>
+                  </div>
+                  <h3>Nhận diện thương hiệu hiện đại</h3>
+                  <p>Thiết kế logo, màu sắc và bộ nhận diện giúp thương hiệu nổi bật và chuyên nghiệp.</p>
+                  <div class="portfolio-tech">
+                    <span class="tech-badge">Illustrator</span>
+                    <span class="tech-badge">Figma</span>
+                    <span class="tech-badge">Brand</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-xl-4 col-lg-6 portfolio-item isotope-item filter-ui">
+              <div class="portfolio-wrapper">
+                <div class="portfolio-image">
+                  <img src="assets/img/portfolio/portfolio-10.webp" alt="UI/UX Project" class="img-fluid" loading="lazy">
+                  <div class="portfolio-hover">
+                    <div class="portfolio-actions">
+                      <a href="assets/img/portfolio/portfolio-10.webp" class="glightbox action-btn preview-btn" title="Preview Project">
+                        <i class="bi bi-eye"></i>
+                      </a>
+                      <a href="#" class="action-btn details-btn" title="View Details">
+                        <i class="bi bi-arrow-up-right"></i>
+                      </a>
+                    </div>
+                  </div>
+                </div>
+                <div class="portfolio-content">
+                  <div class="portfolio-meta">
+                    <span class="project-type">UI/UX</span>
+                    <div class="project-rating">
+                      <i class="bi bi-star-fill"></i>
+                      <span>4.7</span>
+                    </div>
+                  </div>
+                  <h3>Thiết kế Dashboard SaaS</h3>
+                  <p>Giao diện quản trị hiện đại, dễ dùng, tối ưu trải nghiệm người dùng cho nền tảng SaaS.</p>
+                  <div class="portfolio-tech">
+                    <span class="tech-badge">Figma</span>
+                    <span class="tech-badge">Prototyping</span>
+                    <span class="tech-badge">UX</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-xl-4 col-lg-6 portfolio-item isotope-item filter-web">
+              <div class="portfolio-wrapper">
+                <div class="portfolio-image">
+                  <img src="assets/img/portfolio/portfolio-11.webp" alt="E-commerce Platform" class="img-fluid" loading="lazy">
+                  <div class="portfolio-hover">
+                    <div class="portfolio-actions">
+                      <a href="assets/img/portfolio/portfolio-11.webp" class="glightbox action-btn preview-btn" title="Preview Project">
+                        <i class="bi bi-eye"></i>
+                      </a>
+                      <a href="#" class="action-btn details-btn" title="View Details">
+                        <i class="bi bi-arrow-up-right"></i>
+                      </a>
+                    </div>
+                  </div>
+                </div>
+                <div class="portfolio-content">
+                  <div class="portfolio-meta">
+                    <span class="project-type">Thương mại điện tử</span>
+                    <div class="project-rating">
+                      <i class="bi bi-star-fill"></i>
+                      <span>4.6</span>
+                    </div>
+                  </div>
+                  <h3>Nền tảng bán hàng trực tuyến</h3>
+                  <p>Giải pháp thương mại điện tử hiện đại, dễ quản lý và tích hợp API mạnh mẽ.</p>
+                  <div class="portfolio-tech">
+                    <span class="tech-badge">Shopify</span>
+                    <span class="tech-badge">React</span>
+                    <span class="tech-badge">API</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-xl-4 col-lg-6 portfolio-item isotope-item filter-mobile">
+              <div class="portfolio-wrapper">
+                <div class="portfolio-image">
+                  <img src="assets/img/portfolio/portfolio-12.webp" alt="Fintech Mobile App" class="img-fluid" loading="lazy">
+                  <div class="portfolio-hover">
+                    <div class="portfolio-actions">
+                      <a href="assets/img/portfolio/portfolio-12.webp" class="glightbox action-btn preview-btn" title="Preview Project">
+                        <i class="bi bi-eye"></i>
+                      </a>
+                      <a href="#" class="action-btn details-btn" title="View Details">
+                        <i class="bi bi-arrow-up-right"></i>
+                      </a>
+                    </div>
+                  </div>
+                </div>
+                <div class="portfolio-content">
+                  <div class="portfolio-meta">
+                    <span class="project-type">Fintech</span>
+                    <div class="project-rating">
+                      <i class="bi bi-star-fill"></i>
+                      <span>4.8</span>
+                    </div>
+                  </div>
+                  <h3>Giải pháp tài chính di động</h3>
+                  <p>Ứng dụng quản lý tài chính cá nhân với công nghệ blockchain và trải nghiệm người dùng tối ưu.</p>
+                  <div class="portfolio-tech">
+                    <span class="tech-badge">Swift</span>
+                    <span class="tech-badge">Kotlin</span>
+                    <span class="tech-badge">Blockchain</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div><!-- End Portfolio Items Container -->
+
+        </div>
+
+        <div class="portfolio-cta text-center" data-aos="fade-up" data-aos-delay="400">
+          <h4>Sẵn sàng bắt đầu dự án tiếp theo?</h4>
+          <p>Hãy cùng nhau hiện thực hóa tầm nhìn số của bạn</p>
+          <div class="cta-buttons">
+            <a href="#contact" class="btn btn-primary">Bắt đầu dự án</a>
+            <a href="#portfolio" class="btn btn-outline">Xem tất cả dự án</a>
+          </div>
+        </div>
+
+      </div>
+
+    </section><!-- /Portfolio Section -->
+
+    <!-- Why Us Section -->
+    <section id="why-us" class="why-us section">
+
+      <!-- Section Title -->
+      <div class="container section-title" data-aos="fade-up">
+        <h2>Vì Sao Nên Chọn BNStudio</h2>
+        <p>Chúng tôi mang đến sự khác biệt trong từng dự án bằng tư duy chiến lược và sáng tạo vượt trội.</p>
+      </div><!-- End Section Title -->
+
+      <div class="container" data-aos="fade-up" data-aos-delay="100">
+
+        <div class="row g-4">
+
+          <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="200">
+            <div class="feature-card">
+              <div class="icon-wrapper">
+                <i class="bi bi-palette-fill"></i>
+              </div>
+              <h4>Sáng tạo vượt trội</h4>
+              <p>Chúng tôi không chỉ thiết kế đẹp – mà còn tạo ra trải nghiệm truyền cảm hứng và khác biệt.</p>
+              <div class="feature-stats">
+                <span class="stat-number" data-purecounter-start="0" data-purecounter-end="95" data-purecounter-duration="2">95</span>
+                <span class="stat-label">% Khách hài lòng</span>
+              </div>
+            </div>
+          </div><!-- End Feature Card -->
+
+          <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="300">
+            <div class="feature-card">
+              <div class="icon-wrapper">
+                <i class="bi bi-graph-up-arrow"></i>
+              </div>
+              <h4>Kết quả đã kiểm chứng</h4>
+              <p>Giải pháp của chúng tôi giúp tăng trưởng doanh thu, cải thiện hiệu suất và nâng cao giá trị thương hiệu.</p>
+              <div class="feature-stats">
+                <span class="stat-number" data-purecounter-start="0" data-purecounter-end="200" data-purecounter-duration="2">200</span>
+                <span class="stat-label">% ROI Increase</span>
+              </div>
+            </div>
+          </div><!-- End Feature Card -->
+
+          <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="400">
+            <div class="feature-card">
+              <div class="icon-wrapper">
+                <i class="bi bi-award-fill"></i>
+              </div>
+              <h4>Đội ngũ chuyên gia</h4>
+              <p>Chúng tôi là tập hợp những chuyên gia thiết kế, phát triển và chiến lược số với hơn 10 năm kinh nghiệm.</p>
+              <div class="feature-stats">
+                <span class="stat-number" data-purecounter-start="0" data-purecounter-end="50" data-purecounter-duration="2">50</span>
+                <span class="stat-label">+ Giải thưởng đạt được</span>
+              </div>
+            </div>
+          </div><!-- End Feature Card -->
+
+        </div>
+
+        <div class="row mt-5">
+          <div class="col-lg-6" data-aos="fade-right" data-aos-delay="200">
+            <div class="feature-showcase">
+              <img src="assets/img/illustration/illustration-14.webp" alt="Creative Process" class="img-fluid">
+            </div>
+          </div>
+
+          <div class="col-lg-6" data-aos="fade-left" data-aos-delay="300">
+            <div class="feature-content">
+              <h3>Vì sao các thương hiệu hàng đầu chọn chúng tôi</h3>
+              <p class="lead">Chúng tôi đồng hành cùng doanh nghiệp từ chiến lược đến triển khai, tạo ra sản phẩm số hiệu quả và truyền cảm hứng.</p>
+
+              <div class="feature-list">
+                <div class="feature-item">
+                  <div class="feature-icon">
+                    <i class="bi bi-check-circle-fill"></i>
+                  </div>
+                  <div class="feature-text">
+                    <h5>Tư duy chiến lược</h5>
+                    <p>Phân tích sâu hành vi người dùng và mục tiêu kinh doanh để đưa ra giải pháp phù hợp.</p>
+                  </div>
+                </div>
+
+                <div class="feature-item">
+                  <div class="feature-icon">
+                    <i class="bi bi-check-circle-fill"></i>
+                  </div>
+                  <div class="feature-text">
+                    <h5>Định hướng dữ liệu</h5>
+                    <p>Chúng tôi sử dụng dữ liệu thực tế để tối ưu thiết kế và cải thiện hiệu quả trải nghiệm.</p>
+                  </div>
+                </div>
+
+                <div class="feature-item">
+                  <div class="feature-icon">
+                    <i class="bi bi-check-circle-fill"></i>
+                  </div>
+                  <div class="feature-text">
+                    <h5>Hỗ trợ 24/7</h5>
+                    <p>Đội ngũ luôn sẵn sàng hỗ trợ bạn mọi lúc, đảm bảo tiến độ và chất lượng dự án.</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+
+    </section><!-- /Why Us Section -->
+
+    <!-- Testimonials Section -->
+    <section id="testimonials" class="testimonials section">
+
+      <!-- Section Title -->
+      <div class="container section-title" data-aos="fade-up">
+        <h2>Nhận xét từ Khách Hàng</h2>
+        <p>Những đánh giá chân thực từ đối tác và khách hàng đã đồng hành cùng BNStudio</p>
+      </div><!-- End Section Title -->
+
+      <div class="container" data-aos="fade-up" data-aos-delay="100">
+
+        <div class="testimonials-slider swiper init-swiper">
+          <script type="application/json" class="swiper-config">
+            {
+              "loop": true,
+              "speed": 600,
+              "autoplay": {
+                "delay": 4000
+              },
+              "slidesPerView": 1,
+              "centeredSlides": true,
+              "spaceBetween": 20,
+              "pagination": {
+                "el": ".swiper-pagination",
+                "type": "bullets",
+                "clickable": true
+              },
+              "breakpoints": {
+                "768": {
+                  "slidesPerView": 1.5,
+                  "spaceBetween": 30
+                },
+                "1200": {
+                  "slidesPerView": 3,
+                  "spaceBetween": 40
+                }
+              }
+            }
+          </script>
+          <div class="swiper-wrapper">
+            <div class="swiper-slide">
+              <div class="testimonial-card" data-aos="zoom-in" data-aos-delay="100">
+                <div class="testimonial-header">
+                  <div class="user-avatar">
+                    <img src="assets/img/person/person-f-12.webp" alt="Profile Image">
+                  </div>
+                  <div class="user-info">
+                    <h3>Jennifer Martinez</h3>
+                    <span class="user-role">Nhà thiết kế sản phẩm</span>
+                    <div class="rating">
+                      <i class="bi bi-star-fill"></i>
+                      <i class="bi bi-star-fill"></i>
+                      <i class="bi bi-star-fill"></i>
+                      <i class="bi bi-star-fill"></i>
+                      <i class="bi bi-star-fill"></i>
+                    </div>
+                  </div>
+                </div>
+                <div class="testimonial-content">
+                  <div class="quote-mark">
+                    <i class="bi bi-quote"></i>
+                  </div>
+                  <p>BNStudio đã giúp chúng tôi nâng tầm trải nghiệm người dùng một cách chuyên nghiệp và sáng tạo. Đội ngũ rất tận tâm và hiểu rõ nhu cầu khách hàng.</p>
+                </div>
+                <div class="testimonial-footer">
+                  <div class="company-badge">
+                    <i class="bi bi-building"></i>
+                    <span>TechCorp</span>
+                  </div>
+                  <div class="verified-badge">
+                    <i class="bi bi-patch-check-fill"></i>
+                    <span>Đã xác thực</span>
+                  </div>
+                </div>
+              </div>
+            </div><!-- End testimonial item -->
+
+            <div class="swiper-slide">
+              <div class="testimonial-card" data-aos="zoom-in" data-aos-delay="200">
+                <div class="testimonial-header">
+                  <div class="user-avatar">
+                    <img src="assets/img/person/person-m-11.webp" alt="Profile Image">
+                  </div>
+                  <div class="user-info">
+                    <h3>Alexander Chen</h3>
+                    <span class="user-role">Kỹ sư Giao diện</span>
+                    <div class="rating">
+                      <i class="bi bi-star-fill"></i>
+                      <i class="bi bi-star-fill"></i>
+                      <i class="bi bi-star-fill"></i>
+                      <i class="bi bi-star-fill"></i>
+                      <i class="bi bi-star-fill"></i>
+                    </div>
+                  </div>
+                </div>
+                <div class="testimonial-content">
+                  <div class="quote-mark">
+                    <i class="bi bi-quote"></i>
+                  </div>
+                  <p>Chúng tôi rất ấn tượng với quy trình làm việc chuyên nghiệp và khả năng nắm bắt yêu cầu nhanh chóng của BNStudio. Kết quả vượt ngoài mong đợi!</p>
+                </div>
+                <div class="testimonial-footer">
+                  <div class="company-badge">
+                    <i class="bi bi-building"></i>
+                    <span>InnovateLab</span>
+                  </div>
+                  <div class="verified-badge">
+                    <i class="bi bi-patch-check-fill"></i>
+                    <span>Đã xác thực</span>
+                  </div>
+                </div>
+              </div>
+            </div><!-- End testimonial item -->
+
+            <div class="swiper-slide">
+              <div class="testimonial-card" data-aos="zoom-in" data-aos-delay="300">
+                <div class="testimonial-header">
+                  <div class="user-avatar">
+                    <img src="assets/img/person/person-f-8.webp" alt="Profile Image">
+                  </div>
+                  <div class="user-info">
+                    <h3>Rachel Taylor</h3>
+                    <span class="user-role">Trưởng phòng Marketing</span>
+                    <div class="rating">
+                      <i class="bi bi-star-fill"></i>
+                      <i class="bi bi-star-fill"></i>
+                      <i class="bi bi-star-fill"></i>
+                      <i class="bi bi-star-fill"></i>
+                      <i class="bi bi-star-fill"></i>
+                    </div>
+                  </div>
+                </div>
+                <div class="testimonial-content">
+                  <div class="quote-mark">
+                    <i class="bi bi-quote"></i>
+                  </div>
+                  <p>BNStudio đã giúp chúng tôi truyền tải thông điệp thương hiệu một cách rõ ràng và đầy cảm xúc. Rất hài lòng với kết quả!</p>
+                </div>
+                <div class="testimonial-footer">
+                  <div class="company-badge">
+                    <i class="bi bi-building"></i>
+                    <span>GrowthCo</span>
+                  </div>
+                  <div class="verified-badge">
+                    <i class="bi bi-patch-check-fill"></i>
+                    <span>Đã xác thực</span>
+                  </div>
+                </div>
+              </div>
+            </div><!-- End testimonial item -->
+
+            <div class="swiper-slide">
+              <div class="testimonial-card" data-aos="zoom-in" data-aos-delay="100">
+                <div class="testimonial-header">
+                  <div class="user-avatar">
+                    <img src="assets/img/person/person-m-14.webp" alt="Profile Image">
+                  </div>
+                  <div class="user-info">
+                    <h3>Christopher Lee</h3>
+                    <span class="user-role">Phó Gíám đốc Kỹ Thuật</span>
+                    <div class="rating">
+                      <i class="bi bi-star-fill"></i>
+                      <i class="bi bi-star-fill"></i>
+                      <i class="bi bi-star-fill"></i>
+                      <i class="bi bi-star-fill"></i>
+                      <i class="bi bi-star-fill"></i>
+                    </div>
+                  </div>
+                </div>
+                <div class="testimonial-content">
+                  <div class="quote-mark">
+                    <i class="bi bi-quote"></i>
+                  </div>
+                  <p>Đội ngũ BNStudio rất chuyên nghiệp và linh hoạt. Họ hiểu rõ yêu cầu kỹ thuật và luôn đưa ra giải pháp tối ưu.</p>
+                </div>
+                <div class="testimonial-footer">
+                  <div class="company-badge">
+                    <i class="bi bi-building"></i>
+                    <span>DevStream</span>
+                  </div>
+                  <div class="verified-badge">
+                    <i class="bi bi-patch-check-fill"></i>
+                    <span>Đã xác thực</span>
+                  </div>
+                </div>
+              </div>
+            </div><!-- End testimonial item -->
+
+            <div class="swiper-slide">
+              <div class="testimonial-card" data-aos="zoom-in" data-aos-delay="200">
+                <div class="testimonial-header">
+                  <div class="user-avatar">
+                    <img src="assets/img/person/person-f-5.webp" alt="Profile Image">
+                  </div>
+                  <div class="user-info">
+                    <h3>Amanda Rodriguez</h3>
+                    <span class="user-role">Chuyên gia nghiên cứu UX</span>
+                    <div class="rating">
+                      <i class="bi bi-star-fill"></i>
+                      <i class="bi bi-star-fill"></i>
+                      <i class="bi bi-star-fill"></i>
+                      <i class="bi bi-star-fill"></i>
+                      <i class="bi bi-star-fill"></i>
+                    </div>
+                  </div>
+                </div>
+                <div class="testimonial-content">
+                  <div class="quote-mark">
+                    <i class="bi bi-quote"></i>
+                  </div>
+                  <p>Họ không chỉ thiết kế đẹp mà còn hiểu sâu về hành vi người dùng. Một đối tác UX đáng tin cậy!</p>
+                </div>
+                <div class="testimonial-footer">
+                  <div class="company-badge">
+                    <i class="bi bi-building"></i>
+                    <span>UserFirst</span>
+                  </div>
+                  <div class="verified-badge">
+                    <i class="bi bi-patch-check-fill"></i>
+                    <span>Đã xác thực</span>
+                  </div>
+                </div>
+              </div>
+            </div><!-- End testimonial item -->
+          </div>
+          <div class="swiper-pagination"></div>
+        </div>
+
+      </div>
+
+    </section><!-- /Testimonials Section -->
+
+    <!-- Team Section -->
+    <section id="team" class="team section">
+
+      <!-- Section Title -->
+      <div class="container section-title" data-aos="fade-up">
+        <h2>Đội ngũ</h2>
+        <p>Những con người đứng sau các giải pháp sáng tạo và hiệu quả của BNStudio</p>
+      </div><!-- End Section Title -->
+
+      <div class="container" data-aos="fade-up" data-aos-delay="100">
+
+        <div class="row g-4">
+
+          <div class="col-lg-6">
+            <div class="team-intro" data-aos="fade-right" data-aos-delay="150">
+              <div class="intro-content">
+                <h3>Gặp gỡ đội ngũ xuất sắc của chúng tôi</h3>
+                <p>Chúng tôi là tập hợp những chuyên gia sáng tạo, kỹ thuật và chiến lược, luôn sẵn sàng đồng hành cùng doanh nghiệp để tạo ra sản phẩm số đột phá.</p>
+                <div class="stats-row">
+                  <div class="stat-item">
+                    <span class="stat-number">50+</span>
+                    <span class="stat-label">Thành viên</span>
+                  </div>
+                  <div class="stat-item">
+                    <span class="stat-number">8</span>
+                    <span class="stat-label">Phòng ban chuyên môn</span>
+                  </div>
+                  <div class="stat-item">
+                    <span class="stat-number">15+</span>
+                    <span class="stat-label">Quốc gia hợp tác</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-6">
+            <div class="team-grid" data-aos="fade-left" data-aos-delay="200">
+              <div class="member-hexagon" data-aos="zoom-in" data-aos-delay="250">
+                <div class="hexagon-inner">
+                  <img src="assets/img/person/person-f-3.webp" alt="Team member">
+                  <div class="member-overlay">
+                    <h5>Sarah Chen</h5>
+                    <span>Giám đốc sáng tạo</span>
+                    <div class="social-icons">
+                      <a href="#"><i class="bi bi-linkedin"></i></a>
+                      <a href="#"><i class="bi bi-twitter"></i></a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="member-hexagon" data-aos="zoom-in" data-aos-delay="300">
+                <div class="hexagon-inner">
+                  <img src="assets/img/person/person-m-4.webp" alt="Team member">
+                  <div class="member-overlay">
+                    <h5>Marcus Johnson</h5>
+                    <span>Trưởng nhóm kỹ thuật</span>
+                    <div class="social-icons">
+                      <a href="#"><i class="bi bi-github"></i></a>
+                      <a href="#"><i class="bi bi-linkedin"></i></a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="member-hexagon" data-aos="zoom-in" data-aos-delay="350">
+                <div class="hexagon-inner">
+                  <img src="assets/img/person/person-f-8.webp" alt="Team member">
+                  <div class="member-overlay">
+                    <h5>Emma Rodriguez</h5>
+                    <span>Quản lý sản phẩm</span>
+                    <div class="social-icons">
+                      <a href="#"><i class="bi bi-instagram"></i></a>
+                      <a href="#"><i class="bi bi-dribbble"></i></a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="member-hexagon" data-aos="zoom-in" data-aos-delay="400">
+                <div class="hexagon-inner">
+                  <img src="assets/img/person/person-m-6.webp" alt="Team member">
+                  <div class="member-overlay">
+                    <h5>David Kim</h5>
+                    <span>Kiến trúc sư UX</span>
+                    <div class="social-icons">
+                      <a href="#"><i class="bi bi-behance"></i></a>
+                      <a href="#"><i class="bi bi-linkedin"></i></a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+        </div>
+
+        <div class="row mt-5">
+          <div class="col-12">
+            <div class="team-carousel-wrapper" data-aos="fade-up" data-aos-delay="200">
+              <h4 class="carousel-title">Ban Lãnh Đạo</h4>
+
+              <div class="leadership-slider swiper init-swiper">
+                <script type="application/json" class="swiper-config">
+                  {
+                    "loop": true,
+                    "speed": 600,
+                    "autoplay": {
+                      "delay": 4000
+                    },
+                    "slidesPerView": 1,
+                    "spaceBetween": 0,
+                    "pagination": {
+                      "el": ".swiper-pagination",
+                      "clickable": true
+                    },
+                    "breakpoints": {
+                      "768": {
+                        "slidesPerView": 2
+                      },
+                      "1024": {
+                        "slidesPerView": 3
+                      }
+                    }
+                  }
+                </script>
+                <div class="swiper-wrapper">
+                  <div class="swiper-slide">
+                    <div class="leader-card">
+                      <div class="leader-image">
+                        <img src="assets/img/person/person-f-14.webp" alt="Leader">
+                      </div>
+                      <div class="leader-info">
+                        <h5>Jennifer Walsh</h5>
+                        <span class="position">Tổng Giám đốc điều hành</span>
+                        <p>Luôn dẫn dắt BNStudio bằng tầm nhìn chiến lược và sự thấu hiểu khách hàng sâu sắc.</p>
+                        <div class="leader-contact">
+                          <a href="#" class="contact-btn">
+                            <i class="bi bi-envelope"></i>
+                          </a>
+                          <a href="#" class="contact-btn">
+                            <i class="bi bi-linkedin"></i>
+                          </a>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="swiper-slide">
+                    <div class="leader-card">
+                      <div class="leader-image">
+                        <img src="assets/img/person/person-m-13.webp" alt="Leader">
+                      </div>
+                      <div class="leader-info">
+                        <h5>Robert Martinez</h5>
+                        <span class="position">Giám đốc công nghệ</span>
+                        <p>Chịu trách nhiệm định hướng kỹ thuật và triển khai các giải pháp công nghệ tiên tiến.</p>
+                        <div class="leader-contact">
+                          <a href="#" class="contact-btn">
+                            <i class="bi bi-envelope"></i>
+                          </a>
+                          <a href="#" class="contact-btn">
+                            <i class="bi bi-github"></i>
+                          </a>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="swiper-slide">
+                    <div class="leader-card">
+                      <div class="leader-image">
+                        <img src="assets/img/person/person-f-5.webp" alt="Leader">
+                      </div>
+                      <div class="leader-info">
+                        <h5>Lisa Thompson</h5>
+                        <span class="position">Trưởng phòng vận hành</span>
+                        <p>Đảm bảo quy trình nội bộ mượt mà và hỗ trợ khách hàng hiệu quả trong mọi giai đoạn dự án.</p>
+                        <div class="leader-contact">
+                          <a href="#" class="contact-btn">
+                            <i class="bi bi-envelope"></i>
+                          </a>
+                          <a href="#" class="contact-btn">
+                            <i class="bi bi-twitter"></i>
+                          </a>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="swiper-slide">
+                    <div class="leader-card">
+                      <div class="leader-image">
+                        <img src="assets/img/person/person-m-9.webp" alt="Leader">
+                      </div>
+                      <div class="leader-info">
+                        <h5>Alex Garcia</h5>
+                        <span class="position">Phó Giám đốc Marketing</span>
+                        <p>Alex là người dẫn dắt chiến lược truyền thông và tăng trưởng thương hiệu với hơn 10 năm kinh nghiệm.</p>
+                        <div class="leader-contact">
+                          <a href="#" class="contact-btn">
+                            <i class="bi bi-envelope"></i>
+                          </a>
+                          <a href="#" class="contact-btn">
+                            <i class="bi bi-instagram"></i>
+                          </a>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="swiper-pagination"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="row mt-4">
+          <div class="col-lg-8 offset-lg-2">
+            <div class="join-team-cta" data-aos="fade-up" data-aos-delay="300">
+              <div class="cta-icon">
+                <i class="bi bi-rocket-takeoff"></i>
+              </div>
+              <div class="cta-content">
+                <h4>Sẵn sàng đồng hành cùng sứ mệnh của chúng tôi?</h4>
+                <p>Chúng tôi luôn tìm kiếm những tài năng đam mê sáng tạo và công nghệ để cùng tạo nên giá trị khác biệt.</p>
+                <div class="cta-actions">
+                  <a href="#" class="btn btn-primary">Xem vị trí tuyển dụng</a>
+                  <a href="#" class="btn btn-outline">Văn hóa tại BNStudio</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+
+    </section><!-- /Team Section -->
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact section">
+      <!-- Section Title -->
+      <div class="container section-title" data-aos="fade-up">
+        <h2>Liên hệ</h2>
+        <p>Chúng tôi luôn sẵn sàng lắng nghe và đồng hành cùng bạn trong mọi ý tưởng sáng tạo</p>
+      </div><!-- End Section Title -->
+
+      <div class="container" data-aos="fade-up" data-aos-delay="100">
+        <div class="row align-items-center">
+          <div class="col-lg-5" data-aos="fade-right" data-aos-delay="200">
+            <div class="contact-form-card">
+              <div class="form-header">
+                <div class="header-icon">
+                  <i class="bi bi-chat-dots-fill"></i>
+                </div>
+                <h3>Bắt đầu trò chuyện</h3>
+                <p>Chia sẻ với chúng tôi về dự án hoặc ý tưởng của bạn – chúng tôi sẽ phản hồi nhanh chóng.</p>
+              </div>
+
+              <form action="forms/contact.php" method="post" class="php-email-form">
+                <div class="row">
+                  <div class="col-md-6 mb-3">
+                    <input type="text" name="name" class="form-control" placeholder="Your Name" required="">
+                  </div>
+                  <div class="col-md-6 mb-3">
+                    <input type="email" class="form-control" name="email" placeholder="Email Address" required="">
+                  </div>
+                </div>
+
+                <div class="mb-3">
+                  <input type="text" class="form-control" name="subject" placeholder="What's this about?" required="">
+                </div>
+
+                <div class="mb-4">
+                  <textarea class="form-control" name="message" rows="4" placeholder="Tell us more about your project..." required=""></textarea>
+                </div>
+
+                <div class="my-3">
+                  <div class="loading">Đang gửi...</div>
+                  <div class="error-message"></div>
+                  <div class="sent-message">Tin nhắn của bạn đã được gửi. Cảm ơn bạn!</div>
+                </div>
+
+                <button type="submit" class="submit-btn">
+                  <span>Gửi tin nhắn</span>
+                  <i class="bi bi-send-fill"></i>
+                </button>
+              </form>
+            </div>
+          </div>
+
+          <div class="col-lg-7" data-aos="fade-left" data-aos-delay="200">
+            <div class="contact-info-area">
+              <div class="info-header">
+                <h3>Sẵn sàng biến ý tưởng thành hiện thực?</h3>
+                <p>Hãy liên hệ với chúng tôi để cùng tạo nên những sản phẩm số ấn tượng và hiệu quả.</p>
+              </div>
+
+              <div class="contact-methods">
+                <div class="method-card" data-aos="zoom-in" data-aos-delay="250">
+                  <div class="card-icon">
+                    <i class="bi bi-envelope-at"></i>
+                  </div>
+                  <div class="card-content">
+                    <h5>Gửi Email</h5>
+                    <p>baongo@bnstudio.com</p>
+                    <span class="response-time">Phản hồi 2-4 giờ</span>
+                  </div>
+                </div>
+
+                <div class="method-card" data-aos="zoom-in" data-aos-delay="300">
+                  <div class="card-icon">
+                    <i class="bi bi-telephone"></i>
+                  </div>
+                  <div class="card-content">
+                    <h5>Gọi trực tiếp</h5>
+                    <p>+1 (555) 987-6543</p>
+                    <span class="response-time">Thứ 2 - Thứ 6, 9:00 - 18:00</span>
+                  </div>
+                </div>
+
+                <div class="method-card" data-aos="zoom-in" data-aos-delay="350">
+                  <div class="card-icon">
+                    <i class="bi bi-geo-alt"></i>
+                  </div>
+                  <div class="card-content">
+                    <h5>Văn phòng</h5>
+                    <p>4821 Nguyễn Văn Cừ, Quận 5, TP. HCM</p>
+                    <span class="response-time">Mở cửa: Thứ 2 - Thứ 6</span>
+                  </div>
+                </div>
+              </div>
+
+              <div class="additional-info" data-aos="fade-up" data-aos-delay="400">
+                <div class="info-stats">
+                  <div class="stat-item">
+                    <div class="stat-number">24h</div>
+                    <div class="stat-label">Thời gian phản hồi trung bình</div>
+                  </div>
+                  <div class="stat-item">
+                    <div class="stat-number">98%</div>
+                    <div class="stat-label">Mức độ hài lòng của khách hàng</div>
+                  </div>
+                  <div class="stat-item">
+                    <div class="stat-number">150+</div>
+                    <div class="stat-label">Dự án đã triển khai</div>
+                  </div>
+                </div>
+
+                <div class="social-connect">
+                  <h6>Kết nối với chúng tôi</h6>
+                  <div class="social-links">
+                    <a href="#" class="social-link"><i class="bi bi-linkedin"></i></a>
+                    <a href="#" class="social-link"><i class="bi bi-twitter-x"></i></a>
+                    <a href="#" class="social-link"><i class="bi bi-github"></i></a>
+                    <a href="#" class="social-link"><i class="bi bi-discord"></i></a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section><!-- /Contact Section -->
+
+  </main>
+
+  <footer id="footer" class="footer position-relative dark-background">
+
+    <div class="container footer-top">
+      <div class="row gy-4">
+        <div class="col-lg-4 col-md-6 footer-about">
+          <a href="index.html" class="logo d-flex align-items-center">
+            <span class="sitename">BNStudio</span>
+          </a>
+          <div class="footer-contact pt-3">
+            <p>4821 Nguyễn Văn Cừ</p>
+            <p>Quận 5, TP. Hồ Chí Minh</p>
+            <p class="mt-3"><strong>Phone:</strong> <span>+1 5589 55488 55</span></p>
+            <p><strong>Email:</strong> <span>baongo@bnstudio.com</span></p>
+          </div>
+          <div class="social-links d-flex mt-4">
+            <a href=""><i class="bi bi-twitter-x"></i></a>
+            <a href=""><i class="bi bi-facebook"></i></a>
+            <a href=""><i class="bi bi-instagram"></i></a>
+            <a href=""><i class="bi bi-linkedin"></i></a>
+          </div>
+        </div>
+
+        <div class="col-lg-2 col-md-3 footer-links">
+          <h4>Liên kết</h4>
+          <ul>
+            <li><a href="#">Trang Chủ</a></li>
+            <li><a href="#">Giới Thiệu</a></li>
+            <li><a href="#">Dịch Vụ</a></li>
+            <li><a href="#">Điều Khoản</a></li>
+            <li><a href="#">Chính Sách Bảo Mật</a></li>
+          </ul>
+        </div>
+
+        <div class="col-lg-2 col-md-3 footer-links">
+          <h4>Dịch Vụ</h4>
+          <ul>
+            <li><a href="#">Thiết Kế Website</a></li>
+            <li><a href="#">Phát Triển Website</a></li>
+            <li><a href="#">Quản Lý Sản Phẩm</a></li>
+            <li><a href="#">Tiếp Thị Số</a></li>
+            <li><a href="#">Thiết Kế Đồ Họa</a></li>
+          </ul>
+        </div>
+
+        <div class="col-lg-2 col-md-3 footer-links">
+          <h4>Khám Phá</h4>
+          <ul>
+            <li><a href="#">Tài Nguyên</a></li>
+            <li><a href="#">Blog</a></li>
+            <li><a href="#">Hướng Dẫn</a></li>
+            <li><a href="#">Câu Hỏi Thường Gặp</a></li>
+            <li><a href="#">Liên Hệ Hỗ Trợ</a></li>
+          </ul>
+      </div>
+
+        <div class="col-lg-2 col-md-3 footer-links">
+          <h4>Khác</h4>
+          <ul>
+            <li><a href="#">Tuyển Dụng</a></li>
+            <li><a href="#">Đối Tác</a></li>
+            <li><a href="#">Sự Kiện</a></li>
+            <li><a href="#">Tin Tức</a></li>
+            <li><a href="#">Cộng Đồng</a></li>
+          </ul>
+        </div>
+
+      </div>
+    </div>
+
+    <div class="container copyright text-center mt-4">
+      <p>© <span>Copyright</span> <strong class="px-1 sitename">BNStudio</strong> <span>2025. Mọi quyền được bảo lưu.</span></p>
+      <div class="credits">
+        <!-- All the links in the footer should remain intact. -->
+        <!-- You can delete the links only if you've purchased the pro version. -->
+        <!-- Licensing information: https://bootstrapmade.com/license/ -->
+        <!-- Purchase the pro version with working PHP/AJAX contact form: [buy-url] -->
+        Thiết kế bởi <a href="https://bootstrapmade.com/">BootstrapMade</a>
+      </div>
+    </div>
+
+  </footer>
+
+  <!-- Scroll Top -->
+  <a href="#" id="scroll-top" class="scroll-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
+
+  <!-- Preloader -->
+  <div id="preloader"></div>
+
+  <!-- Vendor JS Files -->
+  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="assets/vendor/php-email-form/validate.js"></script>
+  <script src="assets/vendor/aos/aos.js"></script>
+  <script src="assets/vendor/purecounter/purecounter_vanilla.js"></script>
+  <script src="assets/vendor/imagesloaded/imagesloaded.pkgd.min.js"></script>
+  <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+  <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+  <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
+
+  <!-- Main JS File -->
+  <script src="assets/js/main.js"></script>
+
+  <script>
+  document.addEventListener("DOMContentLoaded", function () {
+    const username = localStorage.getItem("username");
+    const userBtn = document.getElementById("user-button");
+
+    if (username && userBtn) {
+      userBtn.textContent = username;
+      userBtn.href = "#"; // hoặc chuyển đến trang tài khoản
+    }
+  });
+  </script>
+
+  <script>
+  document.addEventListener("DOMContentLoaded", function () {
+    const username = localStorage.getItem("username");
+    const userDisplay = document.getElementById("user-display");
+    const logoutBtn = document.getElementById("logout-btn");
+
+    if (!username) {
+      alert("Bạn cần đăng nhập trước khi truy cập trang chính.");
+      window.location.href = "Login.html";
+    } 
+    
+
+    if (logoutBtn) {
+      logoutBtn.addEventListener("click", function () {
+        localStorage.removeItem("username");
+        alert("Bạn đã đăng xuất.");
+        window.location.href = "starter-page.html"; // hoặc "Login.html"
+      });
+    }
+  });
+</script>
+
+
+</body>
+
+</html>
