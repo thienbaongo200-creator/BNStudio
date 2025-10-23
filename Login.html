@@ -17,7 +17,6 @@
     window.dataLayer = window.dataLayer || [];
     function gtag(){dataLayer.push(arguments);}
     gtag('js', new Date());
-
     gtag('config', 'G-Y3297TTJBN');
   </script>
 
@@ -120,12 +119,12 @@
 
   <section class="login-section">
     <h2>Đăng Nhập</h2>
-    <form id="loginForm" onsubmit="redirectToHome(event)">
+    <form id="loginForm" action="#" onsubmit="redirectToHome(event)">
       <label for="email">Email:</label>
-      <input type="email" id="email" name="email" placeholder="Nhập email của bạn" required />
+      <input type="email" id="email" name="email" placeholder="Nhập email của bạn" required autocomplete="email" />
 
       <label for="password">Mật khẩu:</label>
-      <input type="password" id="password" name="password" placeholder="Nhập mật khẩu" required />
+      <input type="password" id="password" name="password" placeholder="Nhập mật khẩu" required autocomplete="current-password" />
 
       <button type="submit">Đăng Nhập</button>
     </form>
@@ -134,16 +133,13 @@
 
   <script>
     function redirectToHome(event) {
-      event.preventDefault(); // Ngăn form reload
-
+      event.preventDefault();
       const email = document.getElementById("email").value;
       localStorage.setItem("username", email);
-
       alert("Đăng nhập thành công! Đang chuyển đến trang chủ...");
       window.location.href = "index.html";
-    }     
+    }
   </script>
-
 
 </body>
 </html>
