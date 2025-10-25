@@ -4,9 +4,9 @@
 <head>
   <meta charset="utf-8">
   <meta content="width=device-width, initial-scale=1.0" name="viewport">
-  <title>Privacy - Clarity Bootstrap Template</title>
-  <meta name="description" content="">
-  <meta name="keywords" content="">
+  <title>Chính Sách Bảo Mật | BNStudio</title>
+  <meta name="description" content="Chính sách quyền riêng tư của BNStudio: cách chúng tôi thu thập, sử dụng và bảo vệ thông tin cá nhân của bạn.">
+  <meta name="keywords" content="chính sách quyền riêng tư, bảo mật thông tin, dữ liệu cá nhân, BNStudio, thông tin người dùng, bảo vệ dữ liệu">
 
   <!-- Favicons -->
   <link href="assets/img/favicon.png" rel="icon">
@@ -34,6 +34,18 @@
   * Author: BootstrapMade.com
   * License: https://bootstrapmade.com/license/
   ======================================================== -->
+
+  <!-- Main CSS File -->
+  <link href="assets/css/main.css" rel="stylesheet">
+  <!-- Google tag (gtag.js) -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-Y3297TTJBN"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'G-Y3297TTJBN');
+  </script>
 </head>
 
 <body class="privacy-page">
@@ -44,39 +56,26 @@
       <a href="index.html" class="logo d-flex align-items-center me-auto me-xl-0">
         <!-- Uncomment the line below if you also wish to use an image logo -->
         <!-- <img src="assets/img/logo.webp" alt=""> -->
-        <h1 class="sitename">Clarity</h1>
+        <h1 class="sitename">BNStudio</h1>
       </a>
 
       <nav id="navmenu" class="navmenu">
         <ul>
-          <li><a href="#hero">Home</a></li>
-          <li><a href="#about">About</a></li>
-          <li><a href="#services">Services</a></li>
-          <li><a href="#portfolio">Portfolio</a></li>
-          <li><a href="#team">Team</a></li>
-          <li class="dropdown"><a href="#"><span>Dropdown</span> <i class="bi bi-chevron-down toggle-dropdown"></i></a>
-            <ul>
-              <li><a href="#">Dropdown 1</a></li>
-              <li class="dropdown"><a href="#"><span>Deep Dropdown</span> <i class="bi bi-chevron-down toggle-dropdown"></i></a>
-                <ul>
-                  <li><a href="#">Deep Dropdown 1</a></li>
-                  <li><a href="#">Deep Dropdown 2</a></li>
-                  <li><a href="#">Deep Dropdown 3</a></li>
-                  <li><a href="#">Deep Dropdown 4</a></li>
-                  <li><a href="#">Deep Dropdown 5</a></li>
-                </ul>
-              </li>
-              <li><a href="#">Dropdown 2</a></li>
-              <li><a href="#">Dropdown 3</a></li>
-              <li><a href="#">Dropdown 4</a></li>
-            </ul>
-          </li>
-          <li><a href="#contact">Contact</a></li>
+          <li><a href="index.html">Trang Chủ</a></li>
+          <li><a href="index.html#about">Giới Thiệu</a></li>
+          <li><a href="index.html#services">Dịch Vụ</a></li>
+          <li><a href="index.html#portfolio">Dự Án</a></li>
+          <li><a href="index.html#team">Đội Ngũ</a></li>
+          <li><a href="index.html#contact">Liên Hệ</a></li>
         </ul>
         <i class="mobile-nav-toggle d-xl-none bi bi-list"></i>
       </nav>
 
-      <a class="btn-getstarted" href="#about">Get Started</a>
+       <!-- Nút bên phải -->
+      <div class="user-actions">
+        <span id="user-display"></span>
+        <button id="logout-btn">Đăng xuất</button>
+      </div>
 
     </div>
   </header>
@@ -90,9 +89,9 @@
         <!-- Header -->
         <div class="privacy-header" data-aos="fade-up">
           <div class="header-content">
-            <div class="last-updated">Effective Date: February 27, 2025</div>
-            <h1>Privacy Policy</h1>
-            <p class="intro-text">This Privacy Policy describes how we collect, use, process, and disclose your information, including personal information, in conjunction with your access to and use of our services.</p>
+            <div class="last-updated">Hiệu lực từ: 26 tháng 9 , 2025</div>
+            <h1>Chính sách quyền riêng tư</h1>
+            <p class="intro-text">Chính sách này mô tả cách BNStudio thu thập, sử dụng, xử lý và chia sẻ thông tin của bạn, bao gồm cả thông tin cá nhân, khi bạn truy cập và sử dụng dịch vụ của chúng tôi.</p>
           </div>
         </div>
 
@@ -100,104 +99,104 @@
         <div class="privacy-content" data-aos="fade-up">
           <!-- Introduction -->
           <div class="content-section">
-            <h2>1. Introduction</h2>
-            <p>When you use our services, you're trusting us with your information. We understand this is a big responsibility and work hard to protect your information and put you in control.</p>
-            <p>This Privacy Policy is meant to help you understand what information we collect, why we collect it, and how you can update, manage, export, and delete your information.</p>
+            <h2>1. Giới thiệu</h2>
+            <p>Khi bạn sử dụng dịch vụ của BNStudio, bạn đang tin tưởng chúng tôi với thông tin của mình. Chúng tôi hiểu đây là một trách nhiệm lớn và luôn nỗ lực để bảo vệ thông tin đó, đồng thời giúp bạn kiểm soát dữ liệu cá nhân của mình.</p>
+            <p>Chính sách này giúp bạn hiểu rõ thông tin nào được thu thập, lý do thu thập và cách bạn có thể cập nhật, quản lý, xuất và xóa thông tin của mình.</p>
           </div>
 
           <!-- Information Collection -->
           <div class="content-section">
-            <h2>2. Information We Collect</h2>
-            <p>We collect information to provide better services to our users. The types of information we collect include:</p>
+            <h2>2. Thông tin chúng tôi thu thập</h2>
+            <p>Chúng tôi thu thập thông tin nhằm cung cấp dịch vụ tốt hơn cho người dùng. Các loại thông tin bao gồm:</p>
 
-            <h3>2.1 Information You Provide</h3>
-            <p>When you create an account or use our services, you provide us with personal information that includes:</p>
+            <h3>2.1 Thông tin bạn cung cấp</h3>
+            <p>Khi bạn tạo tài khoản hoặc sử dụng dịch vụ của BNStudio, bạn có thể cung cấp các thông tin cá nhân như:</p>
             <ul>
-              <li>Your name and contact information</li>
-              <li>Account credentials</li>
-              <li>Payment information when required</li>
-              <li>Communication preferences</li>
+              <li>Họ tên và thông tin liên hệ</li>
+              <li>Thông tin đăng nhập tài khoản</li>
+              <li>Thông tin thanh toán (nếu có)</li>
+              <li>Tùy chọn liên lạc</li>
             </ul>
 
-            <h3>2.2 Automatic Information</h3>
-            <p>We automatically collect and store certain information when you use our services:</p>
+            <h3>2.2 Thông tin tự động thu thập</h3>
+            <p>Chúng tôi tự động thu thập một số thông tin khi bạn sử dụng dịch vụ:</p>
             <ul>
-              <li>Device information and identifiers</li>
-              <li>Log information and usage statistics</li>
-              <li>Location information when enabled</li>
-              <li>Browser type and settings</li>
+              <li>Thông tin thiết bị và mã định danh</li>
+              <li>Nhật ký truy cập và thống kê sử dụng</li>
+              <li>Thông tin vị trí (nếu được bật)</li>
+              <li>Loại trình duyệt và cài đặt</li>
             </ul>
           </div>
 
           <!-- Use of Information -->
           <div class="content-section">
-            <h2>3. How We Use Your Information</h2>
-            <p>We use the information we collect to provide, maintain, and improve our services. Specifically, we use your information to:</p>
+            <h2>3. Cách chúng tôi sử dụng thông tin</h2>
+            <p>Thông tin được sử dụng để cung cấp, duy trì và cải thiện dịch vụ của BNStudio. Cụ thể:</p>
             <ul>
-              <li>Provide and personalize our services</li>
-              <li>Process transactions and send related information</li>
-              <li>Send notifications and updates about our services</li>
-              <li>Maintain security and verify identity</li>
-              <li>Analyze and improve our services</li>
+              <li>Cá nhân hóa trải nghiệm người dùng</li>
+              <li>Xử lý giao dịch và gửi thông báo liên quan</li>
+              <li>Gửi cập nhật và thông tin về dịch vụ</li>
+              <li>Bảo mật và xác minh danh tính</li>
+              <li>Phân tích và cải tiến chất lượng dịch vụ</li>
             </ul>
           </div>
 
           <!-- Information Sharing -->
           <div class="content-section">
-            <h2>4. Information Sharing and Disclosure</h2>
-            <p>We do not share personal information with companies, organizations, or individuals outside of our company except in the following cases:</p>
+            <h2>4. Chia sẻ và tiết lộ thông tin</h2>
+            <p>BNStudio không chia sẻ thông tin cá nhân với bên thứ ba trừ các trường hợp sau:</p>
 
-            <h3>4.1 With Your Consent</h3>
-            <p>We will share personal information with companies, organizations, or individuals outside of our company when we have your consent to do so.</p>
+            <h3>4.1 Có sự đồng ý của bạn</h3>
+            <p>Chúng tôi chỉ chia sẻ thông tin cá nhân khi có sự đồng ý rõ ràng từ bạn.</p>
 
-            <h3>4.2 For Legal Reasons</h3>
-            <p>We will share personal information if we have a good-faith belief that access, use, preservation, or disclosure of the information is reasonably necessary to:</p>
+            <h3>4.2 Vì lý do pháp lý</h3>
+            <p>Chúng tôi có thể chia sẻ thông tin nếu tin rằng việc đó là cần thiết để:</p>
             <ul>
-              <li>Meet any applicable law, regulation, legal process, or enforceable governmental request</li>
-              <li>Enforce applicable Terms of Service</li>
-              <li>Detect, prevent, or otherwise address fraud, security, or technical issues</li>
-              <li>Protect against harm to the rights, property, or safety of our users</li>
+              <li>Tuân thủ pháp luật hoặc yêu cầu từ cơ quan chức năng</li>
+              <li>Thực thi Điều khoản dịch vụ</li>
+              <li>Phát hiện và ngăn chặn gian lận hoặc sự cố bảo mật</li>
+              <li>Bảo vệ quyền lợi, tài sản hoặc sự an toàn của người dùng</li>
             </ul>
           </div>
 
           <!-- Data Security -->
           <div class="content-section">
-            <h2>5. Data Security</h2>
-            <p>We work hard to protect our users from unauthorized access to or unauthorized alteration, disclosure, or destruction of information we hold. In particular:</p>
+            <h2>5. Bảo mật dữ liệu</h2>
+            <p>Chúng tôi cam kết bảo vệ thông tin người dùng khỏi truy cập trái phép hoặc rò rỉ dữ liệu. Cụ thể:</p>
             <ul>
-              <li>We encrypt our services using SSL</li>
-              <li>We review our information collection, storage, and processing practices</li>
-              <li>We restrict access to personal information to employees who need that information</li>
+              <li>Mã hóa dữ liệu bằng SSL</li>
+              <li>Rà soát định kỳ quy trình lưu trữ và xử lý dữ liệu</li>
+              <li>Giới hạn quyền truy cập nội bộ đối với thông tin cá nhân</li>
             </ul>
           </div>
 
           <!-- Your Rights -->
           <div class="content-section">
-            <h2>6. Your Rights and Choices</h2>
-            <p>You have certain rights regarding your personal information, including:</p>
+            <h2>6. Quyền và lựa chọn của bạn</h2>
+            <p>Bạn có các quyền sau đối với thông tin cá nhân của mình:</p>
             <ul>
-              <li>The right to access your personal information</li>
-              <li>The right to correct inaccurate information</li>
-              <li>The right to request deletion of your information</li>
-              <li>The right to restrict or object to our processing of your information</li>
+              <li>Truy cập thông tin cá nhân</li>
+              <li>Chỉnh sửa thông tin không chính xác</li>
+              <li>Yêu cầu xóa thông tin</li>
+              <li>Phản đối hoặc hạn chế việc xử lý thông tin</li>
             </ul>
           </div>
 
           <!-- Policy Updates -->
           <div class="content-section">
-            <h2>7. Changes to This Policy</h2>
-            <p>We may update this Privacy Policy from time to time. We will notify you of any changes by posting the new Privacy Policy on this page and updating the effective date at the top.</p>
-            <p>Your continued use of our services after any changes to this Privacy Policy constitutes your acceptance of such changes.</p>
+            <h2>7. Thay đổi chính sách</h2>
+            <p>Chúng tôi có thể cập nhật Chính sách quyền riêng tư này theo thời gian. Mọi thay đổi sẽ được thông báo bằng cách đăng phiên bản mới lên trang này và cập nhật ngày hiệu lực ở đầu trang.</p>
+            <p>Việc bạn tiếp tục sử dụng dịch vụ của BNStudio sau khi chính sách được cập nhật đồng nghĩa với việc bạn đồng ý với những thay đổi đó.</p>
           </div>
         </div>
 
         <!-- Contact Section -->
         <div class="privacy-contact" data-aos="fade-up">
-          <h2>Contact Us</h2>
-          <p>If you have any questions about this Privacy Policy or our practices, please contact us:</p>
+          <h2>Liên hệ với chúng tôi</h2>
+          <p>Nếu bạn có bất kỳ câu hỏi nào liên quan đến Chính sách quyền riêng tư hoặc cách BNStudio xử lý dữ liệu, vui lòng liên hệ:</p>
           <div class="contact-details">
-            <p><strong>Email:</strong> privacy@example.com</p>
-            <p><strong>Address:</strong> 123 Privacy Street, Security City, 12345</p>
+            <p><strong>Email:</strong> baongo@bnstudio.com</p>
+            <p><strong>Address:</strong> 4821 Nguyễn Văn Cừ, Quận 5 TP. Hồ Chí Minh</p>
           </div>
         </div>
 
@@ -213,63 +212,63 @@
       <div class="row gy-4">
         <div class="col-lg-4 col-md-6 footer-about">
           <a href="index.html" class="logo d-flex align-items-center">
-            <span class="sitename">Clarity</span>
+            <span class="sitename">BNStudio</span>
           </a>
           <div class="footer-contact pt-3">
-            <p>A108 Adam Street</p>
-            <p>New York, NY 535022</p>
+            <p>4821 Nguyễn Văn Cừ</p>
+            <p>Quận 5, TP. Hồ Chí Minh</p>
             <p class="mt-3"><strong>Phone:</strong> <span>+1 5589 55488 55</span></p>
-            <p><strong>Email:</strong> <span>info@example.com</span></p>
+            <p><strong>Email:</strong> <span>baongo@bnstudio.com</span></p>
           </div>
           <div class="social-links d-flex mt-4">
-            <a href=""><i class="bi bi-twitter-x"></i></a>
-            <a href=""><i class="bi bi-facebook"></i></a>
-            <a href=""><i class="bi bi-instagram"></i></a>
-            <a href=""><i class="bi bi-linkedin"></i></a>
+            <a href="https://x.com/"><i class="bi bi-twitter-x"></i></a>
+            <a href="https://web.facebook.com/?_rdc=1&_rdr#"><i class="bi bi-facebook"></i></a>
+            <a href="https://www.instagram.com/"><i class="bi bi-instagram"></i></a>
+            <a href="https://www.linkedin.com/"><i class="bi bi-linkedin"></i></a>
           </div>
         </div>
 
         <div class="col-lg-2 col-md-3 footer-links">
-          <h4>Useful Links</h4>
+          <h4>Liên kết</h4>
           <ul>
-            <li><a href="#">Home</a></li>
-            <li><a href="#">About us</a></li>
-            <li><a href="#">Services</a></li>
-            <li><a href="#">Terms of service</a></li>
-            <li><a href="#">Privacy policy</a></li>
+            <li><a href="index.html">Trang Chủ</a></li>
+            <li><a href="index.html#about">Giới Thiệu</a></li>
+            <li><a href="index.html#service">Dịch Vụ</a></li>
+            <li><a href="terms.html">Điều Khoản</a></li>
+            <li><a href="index.html#privacy">Chính Sách Bảo Mật</a></li>
           </ul>
         </div>
 
         <div class="col-lg-2 col-md-3 footer-links">
-          <h4>Our Services</h4>
+          <h4>Dịch Vụ</h4>
           <ul>
-            <li><a href="#">Web Design</a></li>
-            <li><a href="#">Web Development</a></li>
-            <li><a href="#">Product Management</a></li>
-            <li><a href="#">Marketing</a></li>
-            <li><a href="#">Graphic Design</a></li>
+            <li><a href="#">Thiết Kế Website</a></li>
+            <li><a href="#">Phát Triển Website</a></li>
+            <li><a href="#">Quản Lý Sản Phẩm</a></li>
+            <li><a href="#">Tiếp Thị Số</a></li>
+            <li><a href="#">Thiết Kế Đồ Họa</a></li>
           </ul>
         </div>
 
         <div class="col-lg-2 col-md-3 footer-links">
-          <h4>Hic solutasetp</h4>
+          <h4>Khám Phá</h4>
           <ul>
-            <li><a href="#">Molestiae accusamus iure</a></li>
-            <li><a href="#">Excepturi dignissimos</a></li>
-            <li><a href="#">Suscipit distinctio</a></li>
-            <li><a href="#">Dilecta</a></li>
-            <li><a href="#">Sit quas consectetur</a></li>
+            <li><a href="#">Tài Nguyên</a></li>
+            <li><a href="#">Blog</a></li>
+            <li><a href="#">Hướng Dẫn</a></li>
+            <li><a href="#">Câu Hỏi Thường Gặp</a></li>
+            <li><a href="#">Liên Hệ Hỗ Trợ</a></li>
           </ul>
-        </div>
+      </div>
 
         <div class="col-lg-2 col-md-3 footer-links">
-          <h4>Nobis illum</h4>
+          <h4>Khác</h4>
           <ul>
-            <li><a href="#">Ipsam</a></li>
-            <li><a href="#">Laudantium dolorum</a></li>
-            <li><a href="#">Dinera</a></li>
-            <li><a href="#">Trodelas</a></li>
-            <li><a href="#">Flexo</a></li>
+            <li><a href="#">Tuyển Dụng</a></li>
+            <li><a href="#">Đối Tác</a></li>
+            <li><a href="#">Sự Kiện</a></li>
+            <li><a href="#">Tin Tức</a></li>
+            <li><a href="#">Cộng Đồng</a></li>
           </ul>
         </div>
 
@@ -307,7 +306,34 @@
 
   <!-- Main JS File -->
   <script src="assets/js/main.js"></script>
+  
+  <script>
+  document.addEventListener("DOMContentLoaded", function () {
+    // 🔐 Kiểm tra đăng nhập
+    const username = localStorage.getItem("username");
+    const userDisplay = document.getElementById("user-display");
+    const logoutBtn = document.getElementById("logout-btn");
 
-</body>
+    if (!username) {
+      alert("Bạn cần đăng nhập để truy cập trang này.");
+      window.location.href = "Login.html";
+    } else {
+      if (userDisplay) {
+        userDisplay.textContent = username;
+      }
+    }
+
+    if (logoutBtn) {
+      logoutBtn.addEventListener("click", function () {
+        localStorage.removeItem("username");
+        alert("Bạn đã đăng xuất.");
+        window.location.href = "starter-page.html";
+      });
+    }
+  });
+</script>
+
+
+  </body>
 
 </html>
